@@ -84,7 +84,7 @@ Future<void> triggerMarkRead(String myId, String otherUserId) async {
   }
 }
 ```
-## 🧩 Product Strategy & User Experience (UX)
+## 🧩 Product Strategy and User Experience (UX)
 
 Building a technically sound backend is only half the challenge. Connecto was designed with a heavy emphasis on user psychology, retention strategies, and seamless verification flows to ensure a high-quality user base.
 
@@ -107,12 +107,12 @@ The entire client-side application was built using the Flutter SDK (Dart), ensur
 * **State Management:** Efficient localized state handling ensures that real-time RPC calls (like read receipts) update the UI instantaneously without requiring full page rebuilds.
 * **Modular Widget Design:** The UI architecture relies on highly reusable, custom-built Flutter widgets to maintain brand consistency and reduce code duplication across the application.
 
-## 📚 Strategy & Research Documentation
+## 📚 Strategy and Research Documentation
 The technical architecture of Connecto is backed by extensive market research and behavioral analysis. Below are the core strategy documents that dictated the platform's development:
 
-* [📄 Platform & Competitive Analysis](./Platform_Analysis.pdf) - *Market gap identification and feature prioritization.*
-* [📄 The Dopamine Cycle System](./Dopamine_Cycle.pdf) - *Research on user retention, variable reward mechanisms, and engagement loops.*
-* [📄 Beta Testing & Feedback Summary](./Feedback_Summary.pdf) - *Data-driven insights from initial user testing that led to the platform's current structural pivot.*
-* [📄 Prototype Functional Scope](./prototype.pdf) - *Detailed breakdown of the essential features and verification logic.*
+* 📄 [Platform Analysis](./Platform Analysis.pdf) 
+* 📄 [Beta Testing](./Internal Testing Summary.pdf) 
+* 📄 [Feedback Summary](./Feedback Summary.pdf) 
+* 📄 [Project Research](./Project Research V2.pdf) 
 
 *(Click the links above to view the full PDF documents)*

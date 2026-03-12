@@ -110,9 +110,9 @@ The entire client-side application was built using the Flutter SDK (Dart), ensur
 ## 📚 Strategy and Research Documentation
 The technical architecture of Connecto is backed by extensive market research, behavioral analysis, and rigorous testing. Below are the core strategy documents that dictated the platform's development:
 
-* 📄 [Platform Analysis (Connecto App)](./Platform Anaysis (Connecto App).pdf) - *Market gap identification, competitive landscape, and feature prioritization.*
-* 📄 [Project Research V2](./Project%20Research%20V2.pdf) - *Comprehensive research outlining user verification logic, retention models, and platform engagement strategies.*
-* 📄 [Internal Testing Summary](./Internal%20Testing%20Summary.pdf) - *Quality assurance breakdown and functional testing results of the core database architecture and UI state management.*
-* 📄 [Feedback Summary](./Feedback%20Summary.pdf) - *Data-driven insights from beta users that spearheaded the platform's strategic pivot and structural refinement.*
+* [📄 Platform Analysis (Connecto App)](<./Platform Analysis (Connecto App).pdf>) - *Market gap identification, competitive landscape, and feature prioritization.*
+* [📄 Project Research V2](<./Project Research V2.pdf>) - *Comprehensive research outlining user verification logic, retention models, and platform engagement strategies.*
+* [📄 Internal Testing Summary](<./Internal Testing Summary.pdf>) - *Quality assurance breakdown and functional testing results of the core database architecture and UI state management.*
+* [📄 Feedback Summary](<./Feedback Summary.pdf>) - *Data-driven insights from beta users that spearheaded the platform's strategic pivot and structural refinement.*
 
 *(Click the links above to view the full PDF documents directly in your browser)*

@@ -61,8 +61,8 @@ Future<String?> updateSecurePassword(String newPassword) async {
     debugPrint('Auth Update Failed: ${e.message}');
     return e.message; 
   }
-}
-
+} 
+```
 ### 3. High-Performance Backend Logic (RPCs)
 Instead of forcing the frontend to execute heavy database loops, complex or repetitive logic is offloaded directly to the PostgreSQL server using **Remote Procedure Calls (RPC)**. 
 
@@ -83,7 +83,7 @@ Future<void> triggerMarkRead(String myId, String otherUserId) async {
     debugPrint('RPC Execution Error: $e');
   }
 }
-
+```
 ## 🧩 Product Strategy & User Experience (UX)
 
 Building a technically sound backend is only half the challenge. Connecto was designed with a heavy emphasis on user psychology, retention strategies, and seamless verification flows to ensure a high-quality user base.

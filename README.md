@@ -1,14 +1,14 @@
-# 📱 Connecto: Professional Social Networking Architecture
+# Connecto: Professional Social Networking Architecture
 **A Full-Stack Case Study on Scalable UI, Real-Time Communication, and Secure Verification Systems**
 
 *Note: The core source code for this application is hosted in a private repository to protect proprietary business logic and upcoming market iterations. This document serves as a technical teardown of the system architecture, database design, and key feature implementations.*
 
-## 📌 Project Overview
+## Project Overview
 Connecto is a professional social media mobile application prototype. It was engineered to demonstrate modern full-stack application development principles, focusing on secure user verification workflows, real-time database management, and scalable system design.
 
 Unlike standard social platforms, Connecto implements a strict **Education-Based User Verification Engine**, allowing users to verify their profiles via institutional credentials to establish immediate trust and credibility in professional networking environments.
 
-## 🛠️ Tech Stack and Infrastructure
+## Tech Stack and Infrastructure
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
@@ -20,12 +20,12 @@ Unlike standard social platforms, Connecto implements a strict **Education-Based
 * **Authentication:** Supabase Auth (Email/Password and Institutional Verification)
 * **Real-Time:** Supabase Realtime (Live chat and messaging synchronization)
 
-## 🚀 Core Technical Features
+## Core Technical Features
 1. **Education-Based Verification:** A dual-pathway verification system utilizing email-based institutional credential checks and manual document submission workflows.
 2. **Real-Time Communication:** Live messaging architecture utilizing backend Remote Procedure Calls (RPC) to instantly sync read/unread states across devices.
 3. **Role-Based Access Control (RBAC):** Distinct data access policies for verified vs. unverified users.
 
-## 🗄️ Database Architecture and Security
+## Database Architecture and Security
 
 ### 1. Relational Database Design
 The application utilizes a fully relational PostgreSQL database managed via Supabase. The schema is designed for high read/write efficiency, specifically optimized for real-time social feeds and instant messaging. 
@@ -84,7 +84,7 @@ Future<void> triggerMarkRead(String myId, String otherUserId) async {
   }
 }
 ```
-## 🧩 Product Strategy and User Experience (UX)
+## Product Strategy and User Experience (UX)
 
 Building a technically sound backend is only half the challenge. Connecto was designed with a heavy emphasis on user psychology, retention strategies, and seamless verification flows to ensure a high-quality user base.
 
@@ -107,7 +107,7 @@ The entire client-side application was built using the Flutter SDK (Dart), ensur
 * **State Management:** Efficient localized state handling ensures that real-time RPC calls (like read receipts) update the UI instantaneously without requiring full page rebuilds.
 * **Modular Widget Design:** The UI architecture relies on highly reusable, custom-built Flutter widgets to maintain brand consistency and reduce code duplication across the application.
 
-## 📚 Strategy and Research Documentation
+## Strategy and Research Documentation
 The technical architecture of Connecto is backed by extensive market research, behavioral analysis, and rigorous testing. Below are the core strategy documents that dictated the platform's development:
 
 * 📄 [Platform Analysis](<./Platform Analysis.pdf>) - *Market gap identification, competitive landscape, and feature prioritization.*
